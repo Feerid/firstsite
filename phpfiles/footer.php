@@ -61,7 +61,7 @@
                                 <li><i class="fa fa-envelope" aria-hidden="true"></i></i<a href="">support@appie.com</a>
                                 </li>
                                 <li><i class="fa fa-phone" aria-hidden="true"></i><a href="">+(642) 342 762 44</a></li>
-                                <li><i class="fa fa-map-marker" aria-hidden="true"></i><a href="">442 Belle Terre St
+                                <li><i class="fa fa-map-marker" aria-hidden="true"></i>442 Belle Terre St
                                         Floor 7, San Francisco, AV 4206</li>
                             
                             </ul>

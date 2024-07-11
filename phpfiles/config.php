@@ -1,6 +1,6 @@
 <?php
 
-$base_url="http://localhost/sayt/";
+$base_url="http://localhost/firstsite/";
 
 
 ?>
