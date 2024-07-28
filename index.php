@@ -14,17 +14,100 @@ include_once 'phpfiles/header.php';
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-12 appdiv">
-                        <span class="welcome">Welcome To Appie</span>
-                        <h1 class="system">Manage it all, in this all new system.</h1>
-                        <p class="hanky">Hanky panky lavatory up the duff jolly good cack brolly is chinwag zonked happy
-                            days sloshed.</p>
-                        <ul>
-                            <a href="" class="mobile"><i class="fab fa-apple" aria-hidden="true"></i> Download for
-                                iOS</a>
-                            <a href="" class="mobile m-transparent"><i class="fa fa-play android"
-                                    aria-hidden="true"></i> Download for
-                                Android</a>
-                        </ul>
+
+                        <div class="slider">
+
+                            <div class="slider-item">
+                                <span class="welcome">Welcome To Appie 1</span>
+                                <h1 class="system">Manage it all, in this all new system.</h1>
+                                <p class="hanky">Hanky panky lavatory up the duff jolly good cack brolly is chinwag
+                                    zonked happy
+                                    days sloshed.</p>
+                                <ul>
+                                    <a href="" class="mobile"><i class="fab fa-apple" aria-hidden="true"></i> Download
+                                        for
+                                        iOS</a>
+                                    <a href="" class="mobile m-transparent"><i class="fa fa-play android"
+                                            aria-hidden="true"></i> Download for
+                                        Android</a>
+                                </ul>
+
+                            </div>
+
+                            <div class="slider-item">
+                                <span class="welcome">Welcome To Appie 2</span>
+                                <h1 class="system">Manage it all, in this all new system.</h1>
+                                <p class="hanky">Hanky panky lavatory up the duff jolly good cack brolly is chinwag
+                                    zonked happy
+                                    days sloshed.</p>
+                                <ul>
+                                    <a href="" class="mobile"><i class="fab fa-apple" aria-hidden="true"></i> Download
+                                        for
+                                        iOS</a>
+                                    <a href="" class="mobile m-transparent"><i class="fa fa-play android"
+                                            aria-hidden="true"></i> Download for
+                                        Android</a>
+                                </ul>
+
+                            </div>
+
+                            <div class="slider-item">
+                                <span class="welcome">Welcome To Appie 3</span>
+                                <h1 class="system">Manage it all, in this all new system.</h1>
+                                <p class="hanky">Hanky panky lavatory up the duff jolly good cack brolly is chinwag
+                                    zonked happy
+                                    days sloshed.</p>
+                                <ul>
+                                    <a href="" class="mobile"><i class="fab fa-apple" aria-hidden="true"></i> Download
+                                        for
+                                        iOS</a>
+                                    <a href="" class="mobile m-transparent"><i class="fa fa-play android"
+                                            aria-hidden="true"></i> Download for
+                                        Android</a>
+                                </ul>
+
+                            </div>
+
+                            <div class="slider-item">
+                                <span class="welcome">Welcome To Appie 4</span>
+                                <h1 class="system">Manage it all, in this all new system.</h1>
+                                <p class="hanky">Hanky panky lavatory up the duff jolly good cack brolly is chinwag
+                                    zonked happy
+                                    days sloshed.</p>
+                                <ul>
+                                    <a href="" class="mobile"><i class="fab fa-apple" aria-hidden="true"></i> Download
+                                        for
+                                        iOS</a>
+                                    <a href="" class="mobile m-transparent"><i class="fa fa-play android"
+                                            aria-hidden="true"></i> Download for
+                                        Android</a>
+                                </ul>
+
+                            </div>
+
+
+                            <div class="slider-item">
+                                <span class="welcome">Welcome To Appie 5</span>
+                                <h1 class="system">Manage it all, in this all new system.</h1>
+                                <p class="hanky">Hanky panky lavatory up the duff jolly good cack brolly is chinwag
+                                    zonked happy
+                                    days sloshed.</p>
+                                <ul>
+                                    <a href="" class="mobile"><i class="fab fa-apple" aria-hidden="true"></i> Download
+                                        for
+                                        iOS</a>
+                                    <a href="" class="mobile m-transparent"><i class="fa fa-play android"
+                                            aria-hidden="true"></i> Download for
+                                        Android</a>
+                                </ul>
+
+                            </div>
+
+
+
+                        </div>
+
+
                     </div>
 
                     <div class="col-md-6 col-12">
@@ -178,9 +261,9 @@ include_once 'phpfiles/header.php';
                                 <p style="padding-left: 40px;">Mucker plastered bugger all mate morish are.</p>
                             </div>
 
-                           <div class="col-md-12"> <a href="" class="btn btn-primary learn-more">Learn More <i
-                                class="fas fa-arrow-right" aria-hidden="true"></i></a></div>
-                           
+                            <div class="col-md-12"> <a href="" class="btn btn-primary learn-more">Learn More <i
+                                        class="fas fa-arrow-right" aria-hidden="true"></i></a></div>
+
 
                         </div>
                     </div>
@@ -208,7 +291,8 @@ include_once 'phpfiles/header.php';
 
                         <div class="row">
                             <div class="col-md-4 col-12 blog-posts">
-                                <div class="col-md-12 div-img"> <img src="../firstsite/images/blog-uber1.jpg" alt=""></div>
+                                <div class="col-md-12 div-img"> <img src="../firstsite/images/blog-uber1.jpg" alt="">
+                                </div>
                                 <div class="media-date">
                                     <ul>
                                         <li>March 10,2022</li>
@@ -223,12 +307,13 @@ include_once 'phpfiles/header.php';
                             </div>
 
                             <div class="col-md-4 col-12 blog-posts">
-                               <div class="col-md-12 div-img"><img src="../firstsite/images/blog-uber2.jpg" alt=""></div> 
+                                <div class="col-md-12 div-img"><img src="../firstsite/images/blog-uber2.jpg" alt="">
+                                </div>
                                 <div class="media-date">
                                     <ul>
                                         <li>March 10,2022</li>
                                         <a href="">Saas & App</a>
-                                    </ul>  
+                                    </ul>
                                     <h3><a href="">How to bring Dolce to your company</a></h3>
 
                                     <a href="" class="l-more">Learn More <i class="fa fa-arrow-right"
@@ -237,7 +322,8 @@ include_once 'phpfiles/header.php';
                             </div>
 
                             <div class="col-md-4 col-12 blog-posts">
-                               <div class="col-md-12 div-img"> <img src="../firstsite/images/blog-uber3.jpg" alt=""></div>
+                                <div class="col-md-12 div-img"> <img src="../firstsite/images/blog-uber3.jpg" alt="">
+                                </div>
                                 <div class="media-date">
                                     <ul>
                                         <li>March 10,2022</li>
@@ -261,6 +347,8 @@ include_once 'phpfiles/header.php';
                     <div class="col-md-12 col-12 start-bg">
                         <div class="row">
                             <div class="col-md-6 col-12 st-project">
+
+
                                 <h3>Start yout project with appie.</h3>
                                 <p>We will email you only about this product.</p>
                                 <form action="">
@@ -274,7 +362,7 @@ include_once 'phpfiles/header.php';
 
                     </div>
                     <div class="st-project2">
-                       <!-- <img src="../firstsite/images/project-thumb.6dbe1b3f.png" alt="">   -->
+                        <!-- <img src="../firstsite/images/project-thumb.6dbe1b3f.png" alt="">   -->
                     </div>
                 </div>
             </div>

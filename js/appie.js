@@ -42,7 +42,16 @@ $(document).ready(function () {
     $("#menu_toggle").click(function () {
         $(".menu-lt").toggleClass('d-none');
     });
-   
+
+
+    $('.slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 200,
+        fade: true,
+    });
+
 });
 
 
