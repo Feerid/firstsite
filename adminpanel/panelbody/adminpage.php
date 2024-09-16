@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Page</title>
-    <link rel="stylesheet" href=".//css/bootstrap.css">
+    <link rel="stylesheet" href="../panelbody/css/bootstrap.css">
     <link rel="stylesheet" href=".//css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="
@@ -35,9 +35,9 @@ https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css
 
                     <ul class="pc-navbar">
                         <li>
-                            <a href="">
+                            <a href="" class="un_li">
                                 <span class="pc-icon"><i class="ph ph-gauge"></span></i><span
-                                    class="pc-text">Dashboard</span> <span class="dashboard-span-2">2</span>
+                                    class="pc-text">Dashboard</span><span class="dashboard-span-2">2</span>
                                 <span class="pc-badge">
                                     <i class="ph ph-caret-right"></i>
                                 </span>
@@ -52,9 +52,6 @@ https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css
                             </ul>
 
                         </li>
-
-
-
                     </ul>
 
                     <ul class="navigation-ul">
@@ -122,14 +119,13 @@ https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css
 
                     <ul class="pc-navbar">
                         <li>
-                            <a href="">
+                            <a href="" class="un_li">
                                 <span class="pc-icon"><i class="ph ph-image"></i>Gallery
                                     <span class="pc-badge">
                                         <i class="ph ph-caret-right"></i>
                                     </span>
                                 </span>
                             </a>
-
 
                             <ul class="pc-navbar-alt">
                                 <li>
@@ -1307,12 +1303,10 @@ https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css
 
 
 
-
-
             <div class="offset-md-3 col-md-9 pc-content-header">
                 <div class="row">
                     <div class="col-md-5 col-12 pc-header">
-                        <a href=""><i class="ph ph-list"></i></a>
+                        <a href=""><i class="ph ph-list" style="padding-left: 7px;"></i></a>
                         <div class="input-search">
                             <div>
                                 <i class="ph ph-magnifying-glass"></i>
@@ -1322,8 +1316,6 @@ https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css
                         </div>
 
                     </div>
-
-
 
                     <div class="col-md-7 ms-auto">
                         <ul class="ul-unstyled">
@@ -1359,28 +1351,76 @@ https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css
                     </div>
                 </div>
 
+
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="static-card-1">
                             <div class="card-body">
-                                <h5>Daily Sales</h5>
+                                <h5 class="mb-4">Daily Sales</h5>
                             </div>
                             <img src="../panelbody/img/img-status-4.6b845fd8.svg" alt="">
 
 
                             <div class="usd-number">
-                                <h3>$249.95</h3>
+                                <h3>$249.95</h3><span class="usd-span">36%</span>
                             </div>
-                        </div>
+                            <p class="usd-p mb-2 text-sm mt-3">You made an extra 35,000 this daily</p>
 
+
+                            <div class="pg-bar-1">
+                                <div class="pg-bar-2"></div>
+                            </div>
+
+                        </div>
                     </div>
 
 
-                    <div class="col-md-4 col-sm-6"></div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="static-card-1">
+                            <div class="card-body">
+                                <h5 class="mb-4">Monthly Sales</h5>
+                            </div>
+                            <img src="../panelbody/img/img-status-5.08977574.svg" alt="">
 
 
-                    <div class="col-md-4 col-sm-6"></div>
+                            <div class="usd-number">
+                                <h3>$249.95</h3><span class="usd-span">20%</span>
+                            </div>
+                            <p class="usd-p mb-2 text-sm mt-3">You made an extra 35,000 this daily</p>
+
+
+                            <div class="pg-bar-1">
+                                <div class="pg-bar-2"></div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="static-card-1-blue">
+                            <div class="card-body">
+                                <h5 class="mb-4" style="color: #fff;">Daily Sales</h5>
+                            </div>
+                            <img src="../panelbody/img/img-status-4.6b845fd8.svg" alt="">
+
+
+                            <div class="usd-number">
+                                <h3 style="color: #fff;">$249.95</h3>
+                            </div>
+                            <p class="usd-p mb-2 text-sm mt-3" style="color: #fff;">You made an extra 35,000 this daily
+                            </p>
+
+
+                            <div class="pg-bar-1-blue">
+                                <div class="pg-bar-2-blue"></div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
+
+
 
             </div>
 
@@ -1391,7 +1431,10 @@ https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css
 
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+    <script src=".//js/panel.js"></script>
+
 </body>
 
 </html>

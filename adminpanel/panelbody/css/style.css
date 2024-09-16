@@ -9,17 +9,17 @@
 
 }
 
-.sidebar-scrollbar{
+.sidebar-scrollbar {
     overflow-y: scroll;
     height: 100vh;
     position: fixed;
 }
 
-.sidebar-scrollbar::-webkit-scrollbar{
+.sidebar-scrollbar::-webkit-scrollbar {
     width: 7px;
 }
 
-.sidebar-scrollbar::-webkit-scrollbar-thumb{
+.sidebar-scrollbar::-webkit-scrollbar-thumb {
     background: #dcdfe2;
     height: 50px;
     border-radius: 10px;
@@ -54,7 +54,6 @@
 }
 
 .pc-navbar:hover {
-    opacity: 2;
     background-color: #f4f7fa;
 }
 
@@ -101,6 +100,7 @@ a li {
 }
 
 .pc-navbar-alt {
+    display: none;
     margin-left: 5px;
     border-left: 1px solid #dbe0e5;
 }
@@ -131,11 +131,13 @@ a li {
 }
 
 .pc-content-header {
+    padding-left: 40px;
     min-height: 100vh;
     background-color: #f4f7fa;
 }
 
 .pc-header {
+    padding-left: 15px;
     position: relative;
     margin-top: 20px;
 }
@@ -164,7 +166,7 @@ a li {
     margin-left: 20px;
 }
 
-.input-search:hover{
+.input-search:hover {
     background-color: #f4f7fa;
 }
 
@@ -179,31 +181,34 @@ a li {
     float: right;
 }
 
-.ms-auto{
+.ms-auto {
     padding-left: 15%;
     margin-top: 20px;
 }
-.ms-auto ul{
+
+.ms-auto ul {
     display: inline-flex;
 }
-.ms-auto ul li{
+
+.ms-auto ul li {
     font-size: 22px;
     padding-left: 20px;
 }
-.ms-auto i{
+
+.ms-auto i {
     color: #39465f;
 }
 
-.ul-unstyled img{
+.ul-unstyled img {
 
     border-radius: 50%;
 }
 
-.bell{
+.bell {
     position: relative;
 }
 
-.bell-3{
+.bell-3 {
     top: -5px;
     position: absolute;
     right: -4px;
@@ -214,54 +219,164 @@ a li {
     border-radius: 50%;
 }
 
-.breadcrumb-div{
+.breadcrumb-div {
     margin-top: 20px;
 }
-.breadcrump{
+
+.breadcrump {
     padding-left: 0 !important;
     display: inline-flex;
 }
-.breadcrump a{
+
+.breadcrump a {
     text-decoration: none;
     color: #39465f;
     font-size: 13px;
     font-weight: 500;
     padding-right: 10px;
 }
-.breadcrump a:hover{
+
+.breadcrump a:hover {
     color: #04a9f5;
 }
-.breadcrump i{
+
+.breadcrump i {
     margin-right: 10px;
     vertical-align: middle;
     font-size: 12px;
 }
 
-.breadcrump:last-child{
+.breadcrump:last-child {
     font-size: 13px;
     color: #39465f;
     opacity: 0.75;
     font-weight: 500;
 }
 
-.page-header-tiitle h2{
+.page-header-tiitle h2 {
     font-weight: 700;
 }
 
-.static-card-1{
+.card-body {
+    padding-top: 25px;
+}
+
+.card-body h5 {
+    font-size: 16px;
+    color: #1d2630;
+}
+
+.usd-number {
+    display: flex;
+    align-items: center;
+}
+
+.usd-number h3 {
+    font-weight: 500;
+    font-size: 23.496px;
+    color: #1d2630;
+}
+
+.usd-span {
+    color: #1de9b6;
+    background: #e8fdf8;
+    font-size: 10.5px;
+    padding: 4.725px 8.4px;
+    margin: 0px 0px 0px 8px;
+    border-radius: 5px;
+}
+
+.usd-p {
+    font-size: 12px;
+    color: #212529bf;
+    font-weight: 500;
+}
+
+.static-card-1 {
     border-radius: 10px;
     padding: 25px;
     position: relative;
     background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.static-card-1 img{
+
+.static-card-1 img {
+    border-radius: 0px 5px 0px 0px;
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.usd-number h3{
-    font-weight: 500;
-    font-size: 1.500rem;
-    color: #1d2630;
+.static-card-1-blue {
+    border-radius: 10px;
+    padding: 25px;
+    position: relative;
+    background-color: #0fa0f0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.static-card-1-blue img {
+    border-radius: 0px 5px 0px 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.pg-bar-1 {
+    height: 7px;
+    background-color: #f4f7fa;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.pg-bar-2 {
+    height: 7px;
+    width: 75%;
+    background-color: #04a9f5;
+    border-radius: 5px;
+}
+
+.pg-bar-1-blue {
+    height: 7px;
+    background-color: #04a9f5;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.pg-bar-2-blue {
+    height: 7px;
+    width: 75%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/*------------------------------------AFFILIATE-------------------------------------*/
+
+.card-body-affiliate {
+    border-radius: 7px;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-body-affiliate img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.icon-at {
+    margin-right: 10px;
+    padding: 7px;
+    background: linear-gradient(83.31deg, #1de9b6 21.22%, #1dc4e9 88.54%);
+    border-radius: 8px;
+}
+
+.i-26 {
+    color: #fff;
+    font-size: 26px;
 }
