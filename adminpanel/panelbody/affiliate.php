@@ -1359,11 +1359,11 @@
                                     <i class="ph ph-currency-dollar i-26"></i>
                                 </div>
                                 <div>
-                                    <p class="text-muted mb-0">Referrals</p>
-                                    <div class="d-flex aligin-items-center">
-                                        <h2>
+                                    <p class="text-muted mb-0" style="font-size: 14px;">Referrals</p>
+                                    <div class="d-flex aligin-items-end">
+                                        <h2 class="mb-0 f-w-500">
                                             $134.6K
-                                        </h2>
+                                        </h2><span class="sp-1"><i class="ph ph-caret-double-up"></i>55%</span>
                                     </div>
                                 </div>
                             </div>
@@ -1374,43 +1374,252 @@
                 <div class="col-xxl-4 col-12">
                     <div class="static-card-affiliate"></div>
 
-                        <div class="card-body-affiliate">
-                            <img src=".//affiliate.img/img-status-1.15706eac.svg" alt="">
+                    <div class="card-body-affiliate">
+                        <img src=".//affiliate.img/img-status-1.15706eac.svg" alt="">
 
-                            <div class="d-flex aligin-items-center">
-                                <div class="icon-at" style="background: rgb(151 147 212);">
-                                    <i class="ph ph-scales i-26"></i>
-                                </div>
-                                <div>
-                                    <p class="text-muted mb-0">Referrals</p>
-                                    <div class="d-flex aligin-items-center">
-                                        <h2>
-                                            $134.6K
-                                        </h2>
-                                    </div>
+                        <div class="d-flex aligin-items-center">
+                            <div class="icon-at" style="background: rgb(151 147 212);">
+                                <i class="ph ph-scales i-26"></i>
+                            </div>
+                            <div>
+                                <p class="text-muted mb-0" style="font-size: 14px;">Conversion Rate</p>
+                                <div class="d-flex aligin-items-end">
+                                    <h2 class="mb-0 f-w-500">
+                                        8.57%
+                                    </h2><span class="sp-2"><i class="ph ph-caret-double-up"></i>3.6%</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-4 col-12">
-                    <div class="static-card-affiliate"></div>
+            </div>
+            <div class="col-xxl-4 col-12">
+                <div class="static-card-affiliate"></div>
 
-                        <div class="card-body-affiliate">
-                            <img src=".//affiliate.img/img-status-3.25a5ea20.svg" alt="">
+                <div class="card-body-affiliate">
+                    <img src=".//affiliate.img/img-status-3.25a5ea20.svg" alt="">
 
-                            <div class="d-flex aligin-items-center">
-                                <div class="icon-at" style="background: rgb(8 155 241);">
-                                    <i class="ph ph-users-four i-26"></i>
-                                </div>
-                                <div>
-                                    <p class="text-muted mb-0">Referrals</p>
-                                    <div class="d-flex aligin-items-center">
-                                        <h2>
-                                            $134.6K
-                                        </h2>
-                                    </div>
-                                </div>
+                    <div class="d-flex aligin-items-center">
+                        <div class="icon-at" style="background: rgb(8 155 241);">
+                            <i class="ph ph-users-four i-26"></i>
+                        </div>
+                        <div>
+                            <p class="text-muted mb-0" style="font-size: 14px;">Visits</p>
+                            <div class="d-flex aligin-items-end">
+                                <h2 class="mb-0 f-w-500">
+                                    257
+                                </h2><span class="sp-3"><i class="ph ph-caret-double-up"></i>7%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="table-card">
+                        <div class="card-header">
+                            <h5>Affiliates</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responive affiliate-table">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img/avatar-2 (2).webp" alt="" width="30px">
+                                                John Doe
+                                            </div>
+                                        </td>
+                                        <td style="color: #39465f;">Dashboard</td>
+                                        <td>$38</td>
+                                        <td><i class="ph ph-arrow-up  i-up"></i>5.8%</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img/avatar-1.webp" alt="" width="30px">
+                                                Keefs
+                                            </div>
+                                        </td>
+                                        <td style="color: #39465f;">New Website</td>
+                                        <td>$928</td>
+                                        <td><i class="ph ph-arrow-down i-down"></i>51.2%</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img/avatar-3.webp" alt="" width="30px">
+                                                Lazaro
+                                            </div>
+                                        </td>
+                                        <td style="color: #39465f;">Dashboard</td>
+                                        <td>$674</td>
+                                        <td><i class="ph ph-arrow-up i-up"></i>17.1%</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img/avatar-4.webp" alt="" width="30px">
+                                                Adeline
+                                            </div>
+                                        </td>
+                                        <td style="color: #39465f;">New Website</td>
+                                        <td>$1438</td>
+                                        <td><i class="ph ph-arrow-down i-down"></i>15.8%</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img/avatar-5.webp" alt="" width="30px">
+                                                John Doe
+                                            </div>
+                                        </td>
+                                        <td style="color: #39465f;">Invoice</td>
+                                        <td>$90</td>
+                                        <td><i class="ph ph-arrow-up i-up"></i>9.8%</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img//avatar-6.webp" alt="" width="30px">
+                                                Keefs
+                                            </div>
+                                        </td>
+                                        <td style="color: #39465f;">Dashboard</td>
+                                        <td>$123</td>
+                                        <td><i class="ph ph-arrow-up i-up"></i>5.8%</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img/avatar-7.webp" alt="" width="30px">
+                                                Lazaro
+                                            </div>
+                                        </td>
+                                        <td style="color: #39465f;">Landing Page</td>
+                                        <td>$928</td>
+                                        <td><i class="ph ph-arrow-down i-down"></i>51.2%</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-6">
+                    <div class="table-card">
+                        <div class="card-header">
+                            <h5>Affiliates</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responive affiliate-table">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img/avatar-2 (2).webp" alt="" width="30px">
+                                                John Doe
+                                            </div>
+                                        </td>
+                                        
+                                        <td>$38</td>
+                                        <td><i class="ph ph-arrow-down i-down"></i>15.8%</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img/avatar-1.webp" alt="" width="30px">
+                                                Keefs
+                                            </div>
+                                        </td>
+                                        
+                                        <td>$928</td>
+                                        <td><i class="ph ph-arrow-up i-up"></i>9.8%</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img/avatar-3.webp" alt="" width="30px">
+                                                Lazaro
+                                            </div>
+                                        </td>
+                                      
+                                        <td>$674</td>
+                                        <td><i class="ph ph-arrow-up i-up"></i>5.8%</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img/avatar-4.webp" alt="" width="30px">
+                                                Adeline
+                                            </div>
+                                        </td>
+                                      
+                                        <td>$1438</td>
+                                        <td><i class="ph ph-arrow-down i-down"></i>51.2%</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img/avatar-5.webp" alt="" width="30px">
+                                                John Doe
+                                            </div>
+                                        </td>
+                                      
+                                        <td>$90</td>
+                                        <td><i class="ph ph-arrow-up i-up"></i>5.8%</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img//avatar-6.webp" alt="" width="30px">
+                                                Keefs
+                                            </div>
+                                        </td>
+                                      
+                                        <td>$123</td>
+                                        <td><i class="ph ph-arrow-down i-down"></i>51.2%</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="table-avatar">
+                                                <img src=".//affiliate.img/avatar-7.webp" alt="" width="30px">
+                                                Lazaro
+                                            </div>
+                                        </td>
+                                        
+                                        <td>$928</td>
+                                        <td><i class="ph ph-arrow-up i-up"></i>17.1%</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -1418,24 +1627,26 @@
             </div>
         </div>
     </div>
-
-
-
-
-    <body>
-
+</div>
 
 
 
 
 
+<body>
 
 
 
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
-            </script>
-        <script src=".//js/panel.js"></script>
-    </body>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+    <script src=".//js/panel.js"></script>
+</body>
 
 </html>

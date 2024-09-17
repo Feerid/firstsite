@@ -377,6 +377,81 @@ a li {
 }
 
 .i-26 {
+    padding-top: 7px;
     color: #fff;
     font-size: 26px;
+}
+
+.aligin-items-end {
+    position: relative;
+}
+
+.aligin-items-end .sp-1 {
+    position: absolute;
+    font-size: 10px;
+    background: #e8fdf8;
+    color: #1de9b6;
+    right: -45px;
+    top: 16px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.aligin-items-end .sp-2 {
+    position: absolute;
+    font-size: 10px;
+    background: #fecceb;
+    color: #f44236;
+    right: -35px;
+    top: 16px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.aligin-items-end .sp-3 {
+    position: absolute;
+    font-size: 10px;
+    background: #e8fdf8;
+    color: #1de9b6;
+    right: -35px;
+    top: 16px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.card-header{
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 1px solid #dbe0e5;
+    background: #fff;
+}
+.card-header h5{
+    font-size: 15px;
+}
+
+.table-avatar img{
+    border-radius: 5px;
+}
+.table-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #dbe0e5;
+}
+
+.table td{
+    color: #1d2630;
+    font-weight: 600;
+    border-bottom: none;
+}
+.table tr:hover{
+    background: #f4f7fa;
+}
+
+.table .i-up{
+    color: rgb(29 233 182);
+}
+.table .i-down{
+    color: #f44236;
 }
