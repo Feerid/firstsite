@@ -1532,8 +1532,8 @@
                                     <tr>
                                         <td>
                                             <div class="table-avatar">
-                                                <img src=".//affiliate.img/avatar-2 (2).webp" alt="" width="30px">
-                                                John Doe
+                                                <img src=".//affiliate.img/avatar-4.webp" alt="" width="30px">
+                                                Adeline
                                             </div>
                                         </td>
                                         
@@ -1545,8 +1545,8 @@
                                     <tr>
                                         <td>
                                             <div class="table-avatar">
-                                                <img src=".//affiliate.img/avatar-1.webp" alt="" width="30px">
-                                                Keefs
+                                                <img src=".//affiliate.img/avatar-5.webp" alt="" width="30px">
+                                                John Doe
                                             </div>
                                         </td>
                                         
@@ -1558,8 +1558,8 @@
                                     <tr>
                                         <td>
                                             <div class="table-avatar">
-                                                <img src=".//affiliate.img/avatar-3.webp" alt="" width="30px">
-                                                Lazaro
+                                                <img src=".//affiliate.img/avatar-6.webp" alt="" width="30px">
+                                                Keefs
                                             </div>
                                         </td>
                                       
@@ -1571,8 +1571,8 @@
                                     <tr>
                                         <td>
                                             <div class="table-avatar">
-                                                <img src=".//affiliate.img/avatar-4.webp" alt="" width="30px">
-                                                Adeline
+                                                <img src=".//affiliate.img/avatar-7.webp" alt="" width="30px">
+                                                Lazaro
                                             </div>
                                         </td>
                                       
@@ -1584,7 +1584,7 @@
                                     <tr>
                                         <td>
                                             <div class="table-avatar">
-                                                <img src=".//affiliate.img/avatar-5.webp" alt="" width="30px">
+                                                <img src=".//affiliate.img/avatar-2 (2).webp" alt="" width="30px">
                                                 John Doe
                                             </div>
                                         </td>
@@ -1597,7 +1597,7 @@
                                     <tr>
                                         <td>
                                             <div class="table-avatar">
-                                                <img src=".//affiliate.img//avatar-6.webp" alt="" width="30px">
+                                                <img src=".//affiliate.img/avatar-1.webp" alt="" width="30px">
                                                 Keefs
                                             </div>
                                         </td>
@@ -1610,7 +1610,7 @@
                                     <tr>
                                         <td>
                                             <div class="table-avatar">
-                                                <img src=".//affiliate.img/avatar-7.webp" alt="" width="30px">
+                                                <img src=".//affiliate.img/avatar-3.webp" alt="" width="30px">
                                                 Lazaro
                                             </div>
                                         </td>
