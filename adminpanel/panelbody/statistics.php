@@ -1,1316 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Statistics</title>
-</head>
+include '../panelbody/phpfiles/head.php';
 
 
-<!DOCTYPE html>
-<html lang="en">
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Page</title>
-    <link rel="stylesheet" href="../panelbody/css/bootstrap.css">
-    <link rel="stylesheet" href=".//css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="
-https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css
-" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-</head>
+
 
 <body>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3 col-12 sidebar-scrollbar">
-                <div class="navbar-wrapper">
-                    <div class="header-light-able">
-                        <a href=""> <img src=".//img/logo-dark.fbe44887.svg" alt="" width="107" height="24">
-                            <span class="li-able-span">v1.2.0</span></a>
-                    </div>
 
-                    <ul class="navigation-ul">
-                        <li>
-                            <label for="">Navigation</label>
-                        </li>
-                    </ul>
 
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="" class="un_li">
-                                <span class="pc-icon"><i class="ph ph-gauge"></span></i><span
-                                    class="pc-text">Dashboard</span><span class="dashboard-span-2">2</span>
-                                <span class="pc-badge">
-                                    <i class="ph ph-caret-right"></i>
-                                </span>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li><a href=""><span class="circle-span">Analytcs</span></a></li>
-                                <li><a href=""><span class="circle-span">Affilate</span></a></li>
-                                <li><a href=""><span class="circle-span">Finance</span></a></li>
-                                <li><a href=""><span class="circle-span">Helpdesk</span></a></li>
-                                <li><a href=""><span class="circle-span">Invoice</span></a></li>
-                            </ul>
-
-                        </li>
-                    </ul>
-
-                    <ul class="navigation-ul">
-                        <li>
-                            <label for="">Widget</label>
-
-                        </li>
-                    </ul>
-
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href=""><span class="pc-icon"><i class="ph ph-projector-screen-chart"></i>Statistic
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href=""><span class="pc-icon"><i class="ph ph-identification-card"></i>User
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href=""><span class="pc-icon"><i class="ph ph-database"></i>Data
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href=""><span class="pc-icon"><i class="ph ph-chart-pie"></i>Chart
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="navigation-ul">
-                        <li>
-                            <label for="">Application</label>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href=""><span class="pc-icon"><i class="ph ph-calendar-blank"></i>Calendar
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href=""><span class="pc-icon"><i class="ph ph-chats-circle"></i>Chat
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="" class="un_li">
-                                <span class="pc-icon"><i class="ph ph-image"></i>Gallery
-                                    <span class="pc-badge">
-                                        <i class="ph ph-caret-right"></i>
-                                    </span>
-                                </span>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Grid</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Mansory</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-shopping-cart"></i>E-commerce
-                                    <span class="pc-badge">
-                                        <i class="ph ph-caret-right"></i>
-                                    </span>
-                                </span>
-                            </a>
-
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Product</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Product details
-                                    </a></span>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Product List</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Add New Product</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Checkout</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-lifebuoy"></i>Helpdesk
-                                    <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                </span>
-
-                                <ul class="pc-navbar-alt">
-                                    <li>
-                                        <a href="">
-                                            <span class="circle-span">Ticket</span>
-                                            <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                        </a>
-                                        <ul class="pc-navbar-alt-2">
-                                            <li>
-                                                <a href="">
-                                                    <span class="circle-span">Create</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    <span class="circle-span">List</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    <span class="circle-span">Details</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-                                        <a href="">
-                                            <span class="circle-span">Customer</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </a>
-                        </li>
-
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-newspaper"></i>Invoice1</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Invoice List</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Create</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Preview</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-newspaper"></i>Invoice2</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Create</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Details</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">List</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Edit</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href=""><span class="pc-icon"><i class="ph ph-envelope-open"></i>Mail
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-identification-badge"></i>Membership</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Dashboard</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">List</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Pricing</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Setting</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-books"></i>Online Courses</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Dashboard</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Teacher</span>
-                                        <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                    </a>
-                                    <ul class="pc-navbar-alt-2">
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">
-                                                    List
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">
-                                                    Apply
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">
-                                                    Add
-                                                </span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Student</span>
-                                        <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                        <ul class="pc-navbar-alt-2">
-                                            <li>
-                                                <a href="">
-                                                    <span class="circle-span">
-                                                        List
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    <span class="circle-span">
-                                                        Apply
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    <span class="circle-span">
-                                                        Add
-                                                    </span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Pricing</span>
-                                        <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                    </a>
-                                    <ul class="pc-navbar-alt-2">
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">
-                                                    View
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">
-                                                    Add
-                                                </span>
-                                            </a>
-                                        </li>
-
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Site</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Settings</span>
-                                        <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                        <ul class="pc-navbar-alt-2">
-                                            <li>
-                                                <a href="">
-                                                    <span class="circle-span">
-                                                        Payment
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    <span class="circle-span">
-                                                        Pricing
-                                                    </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    <span class="circle-span">
-                                                        Notifications
-                                                    </span>
-                                                </a>
-                                            </li>
-
-                                        </ul>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href=""><span class="pc-icon"><i class="ph ph-currency-circle-dollar"></i>Plans
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-user-circle"></i>Users</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Account Profile</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Social media</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">User Card</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">User List</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Team</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="navigation-ul">
-                        <li>
-                            <label for="">Pages</label>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-shield-checkered"></i>Authentication</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Authentication1</span>
-                                        <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                    </a>
-                                    <ul class="pc-navbar-alt-2">
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Login</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Register</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Forgot Password</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Reset Password</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Code Verfications</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Authentication2</span>
-                                        <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                    </a>
-                                    <ul class="pc-navbar-alt-2">
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Login</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Register</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Forgot Password</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Reset Password</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Code Verfications</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Login Modal</span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-wrench"></i>Maintenence</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Error 404</span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Connection lost</span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Under construction</span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Coming soon</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-rocket"></i>Landing</span>
-                                <span class="pc-badge"><span class="pc-badge"><i class="ph ph-caret-right"></i>
-                            </a>
-                        </li>
-
-                    </ul>
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-x"></i>Loading</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-magnifying-glass"></i>Search</span>
-                                <span class="pc-badge"><span class="pc-badge"><i class="ph ph-caret-right"></i>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Search</span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Contact Search</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-globe"></i>Site Settings</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="navigation-ul">
-                        <label for="">UI Companents</label>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-x"></i>Components</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-flower"></i>Animations</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-flower-lotus"></i>Icons</span>
-                                <span class="pc-badge"><span class="pc-badge"><i class="ph ph-caret-right"></i>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Feather</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Font Awesome 5</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Matereal</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Tabler</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Phospor</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Custom</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="navigation-ul">
-                        <label for="">Forms</label>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-textbox"></i>Form Elements</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Form Basic</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Form Floating</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Form Options</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Input Groups</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Checkbox</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Radio</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Switch</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Mega option</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-plug"></i>Forms Plugins</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Date</span>
-                                        <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                    </a>
-                                    <ul class="pc-navbar-alt-2">
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Datepicker</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Date Range Picker</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Select</span>
-                                        <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                    </a>
-                                    <ul class="pc-navbar-alt-2">
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">Choices js</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Google reChaptcha</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Input Masks</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Clipboard</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Nouislider</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Typeahead</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-pen-nib"></i>Text Editors</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Tinymce</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Quil</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">CK editor</span>
-                                        <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                    </a>
-                                    </a>
-                                    <ul class="pc-navbar-alt-2">
-                                        <li>
-                                            <a href="">
-                                                <span class="circle-span">classic</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Markdown</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-windows-logo"></i>Forms Layouts</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Layouts</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Multicolumn</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Actionbars</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Sticky Action bars</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-cloud-arrow-up"></i>File upload</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Dropzone</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-password"></i>Form Wizard</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-password"></i>Form Vlidation</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-crop"></i>Image cropper</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <ul class="navigation-ul">
-                        <label for="">
-                            Table
-                        </label>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-table"></i>Bootstrap Table</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Basic table</span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Sizing table</span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Border table</span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Styling table</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-grid-nine"></i>Vanilla Table</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Basic initialization</span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Dynamic import</span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Render Column Cells</span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Datetime Sorting</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Column Manipulation</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Methods</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Add Rows</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Fetch API</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Filters</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href="">
-                                        <span class="circle-span">Export</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-text-columns"></i>Data Table</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Advance intialization</span></a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Styling</span></a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Plug-in</span></a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Data sources</span></a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-wall">
-
-                                    </i> DT extentions</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Autofill</span></a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Button</span></a>
-                                    <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                    <ul class="pc-navbar-alt">
-                                        <li><a href=""><span class="circle-span">Basic button</span></a></li>
-                                        <li><a href=""><span class="circle-span">Data export</span></a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Col reorder</span></a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Fixed columns</span></a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Fixed headers</span></a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Key table</span></a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Responsive</span></a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Row reorder</span></a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Scroller</span></a>
-                                </li>
-                            </ul>
-                            <ul class="pc-navbar-alt">
-                                <li>
-                                    <a href=""><span class="circle-span">Select table</span></a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="navigation-ul">
-                        <label for="">Charts & Maps</label>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-chart-donut"></i>Charts</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-                            <ul class="pc-navbar-alt">
-                                <li><a href=""><span class="circle-span">Apex Chart</span></a></li>
-                                <li><a href=""><span class="circle-span">Piety Chart</span></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-map-trifold"></i>Maps</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-                            <ul class="pc-navbar-alt">
-                                <li><a href=""><span class="circle-span">Vector Map</span></a></li>
-                                <li><a href=""><span class="circle-span">GMaps</span></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <ul class="navigation-ul">
-                        <label for="">Other</label>
-                    </ul>
-
-                    <ul class="pc-navbar">
-                        <li>
-                            <a href="">
-                                <span class="pc-icon"><i class="ph ph-tree-structure"></i>Menu levels</span>
-                                <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                            </a>
-                            <ul class="pc-navbar-alt">
-                                <li><a href=""><span class="circle-span">Level 2.1</span></a></li>
-
-                                <li><a href=""><span class="circle-span">Level 2.2</span></a>
-                                    <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                    <ul class="pc-navar-alt-2">
-                                        <li><a href=""><span class="circle-span">Level 3.1</span></a></li>
-                                        <li><a href=""><span class="circle-span">Level 3.2</span></a></li>
-                                        <li><a href=""><span class="circle-span">Level 3.3</span></a>
-                                            <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                            <ul class="pc-navbar-alt-3">
-                                                <li><a href=""><span class="circle-span">Level 4.1</span></a></li>
-                                                <li><a href=""><span class="circle-span">Level 4.2</span></a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li><a href=""><span class="circle-span">Level 2.3</span></a>
-                                    <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                    <ul class="pc-navar-alt-2">
-                                        <li><a href=""><span class="circle-span">Level 3.1</span></a></li>
-                                        <li><a href=""><span class="circle-span">Level 3.2</span></a></li>
-                                        <li><a href=""><span class="circle-span">Level 3.3</span></a>
-                                            <span class="pc-badge"><i class="ph ph-caret-right"></i></span>
-                                            <ul class="pc-navbar-alt-3">
-                                                <li><a href=""><span class="circle-span">Level 4.1</span></a></li>
-                                                <li><a href=""><span class="circle-span">Level 4.2</span></a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <?php
+        include '../panelbody/phpfiles/scrollbar.php';
+        ?>
 
 
 
@@ -1443,7 +147,7 @@ https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css
                             <div>
                                 <p>Monthly Increase</p>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -1462,7 +166,7 @@ https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css
                             <div>
                                 <p>Weekly Increase</p>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -1481,32 +185,269 @@ https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css
                             <div>
                                 <p>Yearly Increase</p>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-12 col-xl-4">
-                    <div class="card overflow-hidden">
+                    <div class="card total-visitors overflow-hidden">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-6 d-flex"><p>Total Visitors</p>
-                                <h3>235</h3><span>20%</span></div>
-                                <div class="col-md-6"></div>
+                                <div class="col-md-6">
+                                    <p class="text-muted mb-1">Total Visitors</p>
+                                    <div class="d-flex align-items-center">
+                                        <h4>235</h4>
+                                        <span>20%</span>
+
+                                    </div>
+                                    <p>More than last Month</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src=".//statistic.img/img-visitor.webp" alt="" width="120px"
+                                        style="padding-top: 20px;">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-6"><h3>Salaam</h3></div>
+                <div class="col-sm-6 col-xl-4">
+                    <div class="st-card-8">
+                        <div class="st-card-8-box">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <p><i class="ph ph-circle"></i>Parcel in the way</p>
+                                <i class="ph ph-info"></i>
+                            </div>
 
+                            <div class="d-flex align-items-center">
+                                <h2 style="font-weight: 700;">25<span class="text-muted">/40</span></h2>
+
+                            </div>
+                            <p><span class="text-success"><i class="ph ph-caret-up"></i>+15%</span>last month</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-xl-4">
+                    <div class="st-card-9-box">
+                        <div class="st-card-9-box-header">
+                            <p>Product earn</p>
+                        </div>
+                        <div class="st-card-9-box-body">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div>
+                                    <p class="txt-muted mb-0">Sale Product</p>
+                                    <div class="d-flex align-items-end mt-1 p-h4">
+                                        <h4>375</h4>
+                                        <span>36%</span>
+
+                                    </div>
+
+                                </div>
+                                <div class="box-9-cube ">
+                                    <i class="ph ph-cube"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 week-card-static">
+                    <div class="week-card-body">
+                        <img src=".//statistic.img/img-earning-bg.1f656d11.svg" alt="">
+                        <div class="week-bg-color">
+                            <ul>
+                                <li><a href="">Mon</a></li>
+                                <li><a href="">Tue</a></li>
+                                <li><a href="">Wed</a></li>
+                                <li><a href="">Thu</a></li>
+                                <li><a href="">Fri</a></li>
+                                <li><a href="">Sat</a></li>
+                                <li><a href="">Sun</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 d-flex" style="margin-bottom: 30px; margin-top: 30px;">
+                                <div class="ch-bar-icon">
+                                    <i class="ph ph-chart-bar"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <div class="d-inline-flex">
+                                        <h4>984,632</h4>
+                                        <span>30%</span>
+
+                                    </div>
+                                    <p>Total Earnings</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 d-flex" style="margin-bottom: 30px; margin-top: 30px;">
+                                <div class="ch-bar-icon">
+                                    <i class="ph ph-magnifying-glass-plus"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <div class="d-inline-flex">
+                                        <h4>344,624</h4>
+                                        <span class="span-2">12%</span>
+                                    </div>
+                                    <p>Total Earnings</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 card-body-card">
+                    <div class="card">
+                        <div class="card-body cb-s">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-inline-flex align-items-center">
+                                    <i class="ph ph-arrow-down-left"></i>
+                                    <p class="text-muted">Income</p>
+                                </div>
+                                <h4>3.15k</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="margin-top: 15px;">
+                        <div class="card-body cb-s-2">
+                            <div class="light-able d-flex align-items-center">
+                                <div class="flex-shrink">
+                                    <img src=".//statistic.img/favicon.single-logo.svg" alt="">
+                                </div>
+
+                                <div class="flex-grow-cb">
+                                    <h5>Light able</h5>
+                                    <p>Light able@developer.io</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                            <div class="flex-grow-1">
+                                <div class="user-group">
+                                    <img src="./affiliate.img/avatar-6.webp" alt="">
+                                    <img src=".//affiliate.img/avatar-6.webp" alt="">
+                                    <img src=".//affiliate.img/avatar-7.webp" alt="">
+                                    <img src=".//affiliate.img/avatar-5.webp" alt="">
+                                    <span class="plus-two">+2</span>
+
+                                    <span class="user-box-blue"><i class="ph ph-plus"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 col-md-6">
+                    <div class="card ss-card">
+                        <div class="card-body">
+                            <h6 style="padding-bottom: 5px;">Languages</h6>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                            <div class="ss-card progres-bar d-flex">
+                                <div class="progressbar-1"></div>
+                                <div class="progressbar-2"></div>
+                                <div class="progressbar-3"></div>
+                                <div class="progressbar-4"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="four-p row">
+                            <div class="col-md-6 d-flex">
+                                <i class=" ph ph-circle" style="color: rgb(29 233 182);"></i>
+                                <p>React native</p>
+                            </div>
+                            <div class="col-md-6 d-flex">
+                                <i class="ph ph-circle" style="color: rgb(29 233 182);"></i>
+                                <p>Figma</p>
+                            </div>
+                            <div class="col-md-6 d-flex">
+                                <i class="ph ph-circle" style="color:rgb(244 194 43) ;"></i>
+                                <p>Bootstrap 5</p>
+                            </div>
+                            <div class="col-md-6 d-flex">
+                                <i class="ph ph-circle" style="color: rgb(244 66 54);"></i>
+                                <p>Shopify</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 st-card-end-box">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <p>Users</p>
+                                <i class="ph ph-arrow-square-up-right" style="font-size: 20px;"></i>
+                            </div>
+                        </div>
+                        <h5>56,908</h5>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="">
+                                <p>Income this month</p>
+                                <i class="ph ph-arrow-square-up-right" style="font-size: 20px; color: #f44236;"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <b><i class="ph ph-currency-dollar"></i></b>
+                            <h5>3,569</h5><span><i class="ph ph-arrow-down" style="padding-top: 2px;"></i>2.6%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 end-st-card-end-box">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <p>Releases new version</p><span class="blue-span">350</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink">
+                                    <i class="ph ph-tag-chevron"></i>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <div class="d-inline-flex align-items-center">
+                                        <h6><u>2.63.3</u></h6><span class="">Latest</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
+            <footer>
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex">
+                        <p>Made with ♥ by Team <a href="">Phoenixcoded</a></p>
+                    </div>
+                    <ul>
+                        <li><a href="">Home</a>
+                            <a href="">Documentation</a>
+                            <a href="">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            
 
-
-
+             
+            </footer>
 
         </div>
+
     </div>
 
 
